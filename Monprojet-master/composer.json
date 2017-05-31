@@ -1,0 +1,12 @@
+{
+
+    "require": {
+        "google/apiclient": "^2.1"
+    },
+    "authors": [
+        {
+            "name": "Arnaud",
+            "email": "arnaud.ayrem@greta-sud-aquitaine.fr"
+        }
+    ]
+}
