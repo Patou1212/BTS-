@@ -3,7 +3,7 @@ session_start();
 require 'Autoloader.php';
 Autoloader::register();
 ?>
-<?php include 'Assets/includes/backOffice/headerHome-b.php'; ?>
+<?php include 'Assets/includes/backOffice/headerHome-b.php';?>
 
 <html lang="fr">
 
@@ -26,6 +26,7 @@ Autoloader::register();
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	inscription.php
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
@@ -76,7 +77,7 @@ Autoloader::register();
 			    				</div>
 			    			</div>
 			    			
-			    			<input type="submit" value="S'enregistrer" class="btn btn-info btn-block">
+			    			<input type="submit" value="S'enregistrer" class="btn btn-info btn-block" action="mail/phpmailer">
 			    		
 			    		</form>
 			    	</div>
@@ -84,5 +85,7 @@ Autoloader::register();
     		</div>
     	</div>
     </div>
+
+	
     </html>
 

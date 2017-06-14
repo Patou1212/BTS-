@@ -2,7 +2,7 @@
 require '../Autoloader.php';
 Autoloader::register();
 
-$Events = new Event();
+$Events = new EventExt();
 $currYear = date('Y');
 
 

@@ -18,7 +18,7 @@ Autoloader::register();
 if(isset($_GET["dataSent"]))
 {
     //création de l'objet $Events
-	$Events = new Event();
+	$Events = new EventExt();
     //set variable avec le path de l'image depuis la BDD
 	$tabEventExt = $Events->getPath($_GET["dataSent"]);
     //set variable pour le format json

@@ -8,7 +8,7 @@ Autoloader::register();
             //On recupere l'id de l'event grace à la date envoyée.
             //Il servira a la requete d'insert ajax effectuée sur EventSelectedSeatPicker-Front.php
             
-           $eventExt = new Event();
+           $eventExt = new EventExt();
            $idEvent = $eventExt->getIdEvent($_POST['datePicked']);
            $idSalle = $eventExt->getIdSalle($_POST['datePicked']);
            $nbPlacesSalle = $eventExt->getNbPlaces($idSalle);
